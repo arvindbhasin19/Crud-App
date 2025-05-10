@@ -116,6 +116,10 @@ export default function CreateUser() {
                     <button type="submit" className="btn btn-sm btn-success">Create</button>
                 </form>
             </div>
+
+            <div style={{position: "fixed", bottom: 0, left: "50%", transform: "translateX(-50%)", textAlign: "center", paddingBottom: "20px"}}>
+  Made by Arvind Bhasin
+</div>
         </div>
     );
 }
